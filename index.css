@@ -9,23 +9,26 @@
 
 #hour, #minute, #second{
     position: absolute;
-    background: black;
+    /* background: black; */
     border-radius: 10px;
     transform-origin: bottom;
 }
 #hour{
+    background: red;
     width: 1.8%;
     height: 25%;
-    top: 27%;
+    top: 26%;
     left: 49%;
 }
 #minute{
+    background: green;
     width: 1%;
     height: 35%;
     top: 16%;
     left: 49.4%;
 }
 #second{
+    background: yellow;
     width: 0.8%;
     height: 40%;
     top: 11%;
